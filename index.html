@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste do Labirinto em Y</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Teste do Labirinto em Y</h1>
+        <div class="buttons">
+            <button id="btnA" onclick="registerChoice('A')">A</button>
+            <button id="btnB" onclick="registerChoice('B')">B</button>
+            <button id="btnC" onclick="registerChoice('C')">C</button>
+        </div>
+        <div class="results">
+            <h2>Sequência: <span id="sequence"></span></h2>
+            <h2>Número de Entradas: <span id="entryCount">0</span></h2>
+            <h2>Índice de Alternância: <span id="alternanceIndex">0%</span></h2>
+        </div>
+        <button id="resetButton" onclick="resetData()">Resetar</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
